@@ -45,7 +45,7 @@ conda env remove --name ADT
 - The default token in the tool is the API Key for my roboflow account, calling the model I deployed on roboflow.
 - Please do not include special characters in the path. If there is an error, check the path.
 
-![image-20231010215533445](https://raw.githubusercontent.com/HerrDanke/image/main/image-20231010215533445.png)
+<img src="https://raw.githubusercontent.com/HerrDanke/image/main/image-20231010215533445.png" alt="image-20231010215533445" style="zoom:67%;" />
 
 The picture above is my user interface.
 
