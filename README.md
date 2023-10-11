@@ -54,3 +54,20 @@ During the operation 3 folders will be generated under the save path selected by
 - VideoFrames -- After loading the video click on the button "Get Frames" and the folder containing the video frames will be saved in this folder.
 - DetectFrames -- After loading the video and the model, click on the button "Start Prediction" and the folder containing the video frame detection results will be saved in this folder.
 - DetectVideo -- Click on the button "write2video" and select a folder containing video frames. The generated video will be saved in this folder.
+
+## training
+
+I have also provided training files. If you want to train your own model, you can refer to my training files.
+
+First you need to install the notebook and YOLOv8 support libraries.
+
+```
+pip install notebook
+pip install ultralytics
+```
+
+I manage my datasets through [Roboflow](https://roboflow.com/) and you can do the same with me.
+
+I also recommend that you use [colab](https://colab.research.google.com/) to train the model. You can open this `ipynb` file in colab.
+
+Here's some official documentation for roboflow, where you can [train](https://github.com/roboflow/notebooks) and [host](https://docs.roboflow.com/deploy/hosted-api/object-detection) your models.
