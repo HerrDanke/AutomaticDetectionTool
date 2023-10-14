@@ -28,6 +28,12 @@ git clone https://github.com/HerrDanke/AutomaticDetectionTool.git
 cd AutomaticDetectionTool
 ```
 
+Installing libraries according to `requirement.txt`
+
+```
+pip install -r requirements.txt
+```
+
 run
 
 ```shell
