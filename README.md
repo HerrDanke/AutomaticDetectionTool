@@ -21,6 +21,12 @@ Install the required python libraries
 pip install PyQt6 roboflow matplotlib opencv-python roboflow
 ```
 
+If the program is broken, try changing the version of opencv
+
+```shell
+pip install opencv-python==4.7.0.72
+```
+
 Download file
 
 ```shell
@@ -28,7 +34,7 @@ git clone https://github.com/HerrDanke/AutomaticDetectionTool.git
 cd AutomaticDetectionTool
 ```
 
-Installing libraries according to `requirement.txt`
+**Or** Installing libraries according to `requirement.txt` 
 
 ```
 pip install -r requirements.txt
